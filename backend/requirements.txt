@@ -1,0 +1,36 @@
+# MediKiosk Backend Dependencies
+# Core API
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+
+# Database
+sqlalchemy==2.0.35
+psycopg2-binary
+aiosqlite==0.20.0
+
+# Data & Validation
+pydantic==2.9.2
+pydantic-settings==2.5.2
+python-dotenv==1.0.1
+python-multipart==0.0.12
+
+# AI / LLM
+langchain==0.3.1
+langgraph==0.2.28
+langchain-groq==0.2.0
+langchain-core==0.3.6
+groq==0.11.0
+
+# TTS Fallback
+edge-tts==6.1.12
+
+# HTTP
+requests==2.32.3
+httpx==0.27.2
+aiofiles==24.1.0
+
+# Caching / Sessions
+redis==5.1.0
+
+# OCR / Media
+Pillow==10.4.0
